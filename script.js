@@ -7,7 +7,7 @@ function checkDiscount () {
   day = document.getElementById('day').value
 
 // check if requirements met
-  if ((day.toLowerCase() === 'tuesday' || day.toLowerCase() === 'thursday') && (age > 12 && age < 21)) {
+   if ((day.toLowerCase() === 'tuesday' || day.toLowerCase() === 'thursday') && (age > 12 && age < 21)) {
       document.getElementById('answer').innerHTML = 'You can get a discount'
   } 
   else {
